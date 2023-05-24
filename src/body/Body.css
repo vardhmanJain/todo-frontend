@@ -1,0 +1,30 @@
+
+
+.display-container {
+    padding: 10px 0;
+    /* background-color: pink; */
+    display: flex;
+    flex-direction: column;
+}
+
+.display-container > *{
+    margin-bottom: 10px;
+    padding: 10px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    background-color: #dad7cd;
+}
+
+.todo-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+}
+
+.todo-container button {
+    padding: 5px;
+    margin-left: auto;
+    background-color: #dad7cd;
+}
